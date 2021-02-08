@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_maple_dsds.mk
+    $(LOCAL_DIR)/evolution_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_maple_dsds-user \
-    havoc_maple_dsds-userdebug \
-    havoc_maple_dsds-eng
+    evolution_maple_dsds-user \
+    evolution_maple_dsds-userdebug \
+    evolution_maple_dsds-eng
