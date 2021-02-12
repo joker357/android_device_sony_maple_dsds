@@ -57,3 +57,5 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 ### SYSTEM PROPS
 # Add device-specific ones
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+### SELinux
+SELINUX_IGNORE_NEVERALLOWS := true
