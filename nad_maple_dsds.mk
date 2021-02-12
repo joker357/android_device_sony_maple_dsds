@@ -16,10 +16,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ### LINEAGE
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+$(call inherit-product, vendor/nad/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := fluid_maple_dsds
+PRODUCT_NAME := nad_maple_dsds
 PRODUCT_DEVICE := maple_dsds
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8142
