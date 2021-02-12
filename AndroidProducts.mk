@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_maple_dsds.mk
+    $(LOCAL_DIR)/fluid_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_maple_dsds-user \
-    nad_maple_dsds-userdebug \
-    nad_maple_dsds-eng
+    fluid_maple_dsds-user \
+    fluid_maple_dsds-userdebug \
+    fluid_maple_dsds-eng
