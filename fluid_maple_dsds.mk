@@ -16,10 +16,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ### LINEAGE
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+$(call inherit-product, vendor/nad/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := fluid_maple_dsds
+PRODUCT_NAME := nad_maple_dsds
 PRODUCT_DEVICE := maple_dsds
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8142
@@ -31,11 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="G8142-user 9 47.2.A.10.107 172320177 release-keys"
 
 BUILD_FINGERPRINT := Sony/G8142/G8142:9/47.2.A.10.107/172320177:user/release-keys
-
-ifneq ($(LINEAGE_DEV_CERTIFICATE),)
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LINEAGE_DEV_CERTIFICATE)
-endif
-
-ifneq ($(LINEAGE_VERITY_CERTIFICATE),)
-    PRODUCT_VERITY_SIGNING_KEY := $(LINEAGE_VERITY_CERTIFICATE)
-endif
